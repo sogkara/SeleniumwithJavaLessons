@@ -6,7 +6,7 @@ public class SeleniumTest {
 	{
 		 int [] arr= {1,4,5,6,8};
 		 TestArray t= new TestArray();
-		 t.tail="hhh";
+		
 		 int c=t.Sum(arr, 5);
 		 t.SumTest();
 		 t.SumTestNull();
